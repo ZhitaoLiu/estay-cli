@@ -1,0 +1,36 @@
+{
+  "name": "estay-cli",
+  "version": "1.0.0",
+  "description": "estay fe command line interface ",
+  "main": "index.js",
+  "bin": {
+    "estay": "index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhitaoLiu/estay-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "vue",
+    "react",
+    "node",
+    "flutter"
+  ],
+  "author": "Damon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhitaoLiu/estay-cli/issues"
+  },
+  "homepage": "https://github.com/ZhitaoLiu/estay-cli#readme",
+  "dependencies": {
+    "commander": "^6.2.0",
+    "ejs": "^3.1.5"
+  }
+}
